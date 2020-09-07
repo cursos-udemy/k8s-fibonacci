@@ -1,0 +1,22 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "Worker",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gwfernandez/docker-fibonacci.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "gwfernandez",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "3.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
